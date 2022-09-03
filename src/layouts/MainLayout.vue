@@ -1,16 +1,10 @@
 <template>
   <div>
-    <div class="flex justify-center">
-      <h1>Vue + Quasar Boilerplate</h1>
-    </div>
-    <div class="flex justify-center">
-      <div>
-        <q-input v-model="inputField" label="Example Input" />
-        <div>Your Input is: {{ inputField }}</div>
-      </div>
-    </div>
-    <div class="flex justify-center q-mt-xl">
-      <sample-component />
+    <header class="flex justify-center">
+      <header-section />
+    </header>
+    <div>
+      <router-view />
     </div>
   </div>
 </template>
@@ -18,14 +12,17 @@
 <script>
 import { defineComponent, ref } from "vue";
 // Components
-import SampleComponent from "src/components/SampleComponent.vue";
+import HeaderSection from "src/components/sections/HeaderSection.vue";
+
 export default defineComponent({
   name: "MainLayout",
   components: {
-    SampleComponent,
+    HeaderSection,
   },
   setup() {
     const inputField = ref();
+    document.getElementsByTagName("body")[0].style.cursor =
+      "url('cursor-test.png'), auto";
 
     return {
       inputField,

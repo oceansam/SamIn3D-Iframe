@@ -1073,10 +1073,10 @@
     core-js "^3.6.5"
     core-js-compat "^3.6.5"
 
-"@quasar/extras@^1.0.0":
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.12.1.tgz#859f7ac79789f840c1d51f994f5bfd5046b1f261"
-  integrity sha512-EwOnaJEDHo9zCnJzd1sFw1sfMAAq8cJaIjzr2+A9o2NcVLaIhD7YAaJdlIdcNmQnyuPAiq9NghUize8lCS0epw==
+"@quasar/extras@^1.15.2":
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.15.2.tgz#1e914ddfebbb9ed474baba37e2c6e6c51cf0294e"
+  integrity sha512-2tlj2nrVzKm4HX8nfdLOh7Y3Lb0SSZ0+5ylqHuWpcckr4myixZwE4l5WeWfx3kmAkKOnSETHHmwLxAajCgA0Ww==
 
 "@quasar/fastclick@1.1.4":
   version "1.1.4"
@@ -1319,6 +1319,11 @@
   version "6.0.0-beta.20.1"
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.0.0-beta.20.1.tgz#5b499647e929c35baf2a66a399578f9aa4601142"
   integrity sha512-R2rfiRY+kZugzWh9ZyITaovx+jpU4vgivAEAiz80kvh3yviiTU3CBuGuyWpSwGz9/C7TkSWVM/FtQRGlZ16n8Q==
+
+"@vue/devtools-api@^6.1.4":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.2.1.tgz#6f2948ff002ec46df01420dfeff91de16c5b4092"
+  integrity sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==
 
 "@vue/reactivity@3.2.22":
   version "3.2.22"
@@ -5462,6 +5467,13 @@ vue-router@4.0.12:
   integrity sha512-CPXvfqe+mZLB1kBWssssTiWg4EQERyqJZes7USiqfW9B5N2x+nHlnsM1D3b5CaJ6qgCvMmYJnz+G0iWjNCvXrg==
   dependencies:
     "@vue/devtools-api" "^6.0.0-beta.18"
+
+vue-router@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.1.5.tgz#256f597e3f5a281a23352a6193aa6e342c8d9f9a"
+  integrity sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==
+  dependencies:
+    "@vue/devtools-api" "^6.1.4"
 
 vue-style-loader@4.1.3:
   version "4.1.3"

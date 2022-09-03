@@ -1,17 +1,19 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
-  </q-page>
+  <div class="test2 full-height">
+    <hero-section />
+    <show-section />
+  </div>
 </template>
 
 <script>
-import { defineComponent } from 'vue';
-
+import { defineComponent } from "vue";
+import HeroSection from "src/components/sections/HeroSection.vue";
+import ShowSection from "src/components/sections/ShowSection.vue";
 export default defineComponent({
-  name: 'PageIndex'
-})
+  name: "PageIndex",
+  components: {
+    HeroSection,
+    ShowSection,
+  },
+});
 </script>

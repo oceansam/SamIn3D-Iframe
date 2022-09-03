@@ -1,1 +1,50 @@
 // app global css in SCSS form
+.test {
+  border: 2px solid red;
+}
+.show-icon {
+  cursor: pointer;
+}
+.hero-container {
+  height: 85%;
+  background-image: url("/toronto_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clickable {
+  cursor: url("assets/cursor-hover.jpg"), auto;
+}
+.icon-disabled {
+  background-color: grey !important;
+  border: 2px solid grey !important;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+.text {
+  &-xs {
+    font-size: 1rem;
+  }
+  &-sm {
+    font-size: 1.25rem;
+  }
+  &-md {
+    font-size: 1.5rem;
+  }
+  &-lg {
+    font-size: 2rem;
+  }
+  &-xl {
+    font-size: 2.2rem;
+  }
+  &-header {
+    font-size: 2.8rem;
+  }
+  &-title {
+    font-size: 4.5rem;
+  }
+  &-button {
+    font-size: 1.35rem;
+  }
+}
