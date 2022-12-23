@@ -177,16 +177,19 @@ export const workExperience = [
     description:
       "Created go-to market applications with Firebase, Vue.js, Typescript and CSS. ",
     featureImage: "work/gct.jpg",
+    url: "https://www.linkedin.com/company/gcto/",
   },
   {
     name: "GetQuorum",
     role: "Fullstack Developer",
-    featureImage: "work/gct.jpg",
+    featureImage: "work/getquorum.jpg",
+    url: "https://www.getquorum.com/",
   },
   {
     name: "Publicis Sapient",
     role: "Software Engineer",
-    featureImage: "work/gct.jpg",
+    featureImage: "work/publicis.jpg",
+    url: "https://www.publicissapient.com/",
   },
 ];
 export const aspirationQuote = {
