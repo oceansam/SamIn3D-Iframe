@@ -18,21 +18,9 @@
         full stack development with a focus on the frontend.
       </div>
       <div class="row q-mt-md q-gutter-x-sm">
-        <q-btn
-          no-caps
-          class="bg-white text-black q-px-lg"
-          @click="$w.open(social.linkedin)"
-        >
-          <q-icon left name="fab fa-linkedin" size="3rem" />
-          <div class="text-sm q-pl-sm">Linkedin</div>
-        </q-btn>
-        <q-btn
-          no-caps
-          class="transparent text-white q-px-lg"
-          @click="$w.open(social.github)"
-        >
-          <q-icon left name="fab fa-github" size="3rem" />
-          <div class="text-sm q-pl-sm">Github</div>
+        <q-btn no-caps class="bg-white text-black q-px-lg" @click="openMail">
+          <q-icon left name="fa fa-envelope" size="3rem" />
+          <a class="text-sm q-pl-sm">Send me an email!</a>
         </q-btn>
       </div>
     </div>
@@ -43,10 +31,14 @@
 import { social } from "src/utils/data";
 export default {
   setup() {
+    const openMail = () => {
+      window.location = "mailto:oceansam101@gmail.com";
+    };
     const $w = window;
     return {
       social,
       $w,
+      openMail,
     };
   },
 };

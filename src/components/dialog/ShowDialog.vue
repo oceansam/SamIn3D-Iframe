@@ -12,7 +12,6 @@
           </div>
           <div class="text-green text-capitalize text-xs">
             {{ data.field }}
-            <span class="text-white">- 2021</span>
           </div>
         </div>
         <div class="text-xs col">

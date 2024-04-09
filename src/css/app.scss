@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.netflix-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+  color: #e50914;
+}
 // app global css in SCSS form
 .test {
   border: 2px solid red;
@@ -20,6 +27,13 @@
   border: 2px solid grey !important;
   &:hover {
     cursor: not-allowed;
+  }
+
+  &-code {
+    opacity: 0.5;
+    &:hover {
+      cursor: not-allowed;
+    }
   }
 }
 .text {

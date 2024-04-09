@@ -1,8 +1,8 @@
 {
-  "name": "vue-quasar-boilerplate-v2",
+  "name": "samin3d-iframe",
   "version": "0.0.1",
-  "description": "vue-quasar-boilerplate for general use",
-  "productName": "vue-quasar-v2",
+  "description": "Iframe used in 3D site for monitor use",
+  "productName": "SamIn3D Iframe",
   "author": "Sam <oceansam101@gmail.com>",
   "private": true,
   "scripts": {

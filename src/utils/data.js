@@ -2,11 +2,10 @@ export const projects = [
   {
     name: "Shelter Share",
     description:
-      "Shelter Share is a web application designed to make donating old clothes and unused supplies quick and easy.",
+      "Shelter Share is a user-friendly web application aimed at streamlining the process of donating old clothes and unused supplies, ensuring a quick and effortless experience for users.",
     featureImage: "projects/sheltershare.jpg",
     githubLink: "https://github.com/Aloinn/Shelter-Share",
     devpostLink: "https://devpost.com/software/shelter-share",
-    demoLink: "https://homeless-help-867a4.firebaseapp.com/",
     techStack: ["Vue", "Firebase", "SASS"],
     tagType: "Hackathon",
     field: "web",
@@ -18,7 +17,6 @@ export const projects = [
     featureImage: "projects/herneeds.jpg",
     githubLink: "https://github.com/oceansam/HerNeeds",
     devpostLink: "https://devpost.com/software/herneeds",
-    demoLink: "https://herneeds-b5e8c.web.app/",
     techStack: ["Vue", "Firebase", "GCP"],
     tagType: "Hackathon",
     isWinner: {
@@ -33,13 +31,31 @@ export const projects = [
     featureImage: "projects/staysafe.png",
     githubLink: "https://github.com/oceansam/SafeSpace",
     devpostLink: "https://devpost.com/software/get-me-home-safe",
-    demoLink: "https://oceansam.github.io/SafeSpace/",
     techStack: ["JS", "HTML", "CSS"],
     tagType: "Hackathon",
     field: "web",
     isWinner: {
       prize: "Best Use of Google Cloud",
     },
+  },
+  {
+    name: "2023 Portfolio",
+    description: "",
+    featureImage: "projects/portfolio.png",
+    demoLink: "https://samcode.vercel.app/",
+    techStack: ["TS", "Next.js", "Framer-Motion"],
+    tagType: "Side Project",
+    field: "web",
+  },
+  {
+    name: "2021 Portfolio",
+    description:
+      "One of the very first portfolios I made to display projects and work experience.",
+    demoLink: "https://oceansam.netlify.app/",
+    featureImage: "projects/portfolio-2021.png",
+    techStack: ["React", "TS", "Three.js"],
+    tagType: "Side Project",
+    field: "mobile",
   },
   {
     name: "Smart Pot",
@@ -57,19 +73,20 @@ export const projects = [
   },
 
   {
-    name: "BallStreet",
+    name: "Tenamint",
     description:
-      "Ball street is a token based platform that provides a place to purchase trading cards. A new space emerging for buyers and sellers to participate in trading cards with crypto.",
-    featureImage: "projects/ballstreet.jpg",
+      "Tenamint is a token based platform that provides a place to purchase trading cards. A new space emerging for buyers and sellers to participate in trading cards with crypto.",
+    featureImage: "projects/tenamint.png",
+    demoLink: "https://tenamint.com/",
     techStack: ["TS", "Vue", "SASS"],
-    tagType: "Internship",
+    tagType: "Production App",
     field: "web",
   },
 
   {
     name: "QRSVP",
     description:
-      "QRsvp allows event coordinators to create QR codes that can allow invitees to do specific things with a scan like entering a venue, connecting to wifi, or entering exclusive events.",
+      "QRsvp empowers event organizers to generate QR codes enabling invitees to seamlessly perform various actions upon scanning, such as gaining entry to venues, connecting to Wi-Fi networks, or accessing exclusive events.",
     featureImage: "projects/qrsvp.jpg",
     githubLink: "https://github.com/oceansam/ruhacks2022",
     devpostLink: "https://devpost.com/software/qrvsp",
@@ -78,21 +95,10 @@ export const projects = [
     field: "web",
   },
   {
-    name: "Palette Generator",
-    description:
-      "Small project made to generate randomized color palettes for my pixel art projects.",
-    featureImage: "projects/cpgen.jpg",
-    githubLink: "https://github.com/oceansam/PaletteGenerator",
-    demoLink: "https://oceansam.github.io/PaletteGenerator/",
-    techStack: ["JS", "React", "SASS"],
-    tagType: "Side Project",
-    field: "web",
-  },
-  {
     name: "AF1 Tracker",
     description:
       "Airforce 1 tracker is a small website I made to quickly track airfoces and their prices from Nike store internal api.",
-    featureImage: "projects/af1track.jpg",
+    featureImage: "projects/airforce.png",
     githubLink: "https://github.com/oceansam/AF1-Tracker",
     demoLink: "https://oceansam.github.io/AF1-Tracker/",
     techStack: ["JS", "Vue", "SASS"],
@@ -110,28 +116,24 @@ export const projects = [
     field: "game",
   },
   {
-    name: "OCD-Tracker",
-    description:
-      "A mobile app that helps users that suffer from obsessive compulsive disorder to prevent reoccuring cycles compulsion.",
-    featureImage: "projects/ocdtrack.jpg",
-    techStack: ["React-Native", "Expo"],
-    tagType: "Side Project",
-    field: "mobile",
-  },
-  {
     name: "LifeHairStudio",
+    description:
+      "LifeHairStudio is a local hair salon located in Toronto's Dufferin Mall. They have been cutting hair for over 15 years and I had the great opportunity to develop out their landing website.",
     featureImage: "projects/lifehair.jpg",
     techStack: ["Vue", "Quasar", "Gsap"],
     demoLink: "https://www.lifehairstudio.com",
-    tagType: "Contract",
+    tagType: "Freelance",
     field: "web",
   },
   {
-    name: "RedThread",
-    featureImage: "projects/redthread.jpg",
-    field: "game",
-    techStack: ["C#", "Unity"],
-    tagType: "Side Project",
+    name: "Artblock",
+    description:
+      "A secure platform for exhibiting and collecting fine art digital assets.",
+    featureImage: "projects/artblock.png",
+    demoLink: "https://artblock-com.web.app/",
+    field: "Web",
+    techStack: ["Vue", "Firebase"],
+    tagType: "Production App",
   },
 ];
 export const skills = [
@@ -190,6 +192,12 @@ export const workExperience = [
     role: "Software Engineer",
     featureImage: "work/publicis.jpg",
     url: "https://www.publicissapient.com/",
+  },
+  {
+    name: "RBC",
+    role: "Software Developer",
+    featureImage: "work/rbc.jpg",
+    url: "https://www.rbc.com/about-rbc.html",
   },
 ];
 export const aspirationQuote = {

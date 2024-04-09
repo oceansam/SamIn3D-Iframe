@@ -2,6 +2,7 @@
   <div
     class="show-box clickable"
     :style="`background-image: url(${data.featureImage})`"
+    @click="showDialog"
   >
     <q-card class="show-card bg-primary text-white">
       <div
@@ -33,12 +34,16 @@
               name="fa fa-code"
               size="1.2rem"
               @click="() => redirectPage(data.githubLink)"
+              :aria-disabled="!!data.githubLink"
+              :class="!!!data.githubLink && 'icon-disabled-code'"
             >
               <q-tooltip
                 transition-show="scale"
                 class="tool-tip"
                 transition-hide="scale"
-                >Check Github</q-tooltip
+                >{{
+                  data.githubLink ? "Check Github" : "Not Available"
+                }}</q-tooltip
               >
             </q-icon>
           </div>
@@ -170,17 +175,21 @@ export default {
   background-position: center;
   background-size: cover;
   position: relative;
-
+  transition: 0.2s ease-in;
   border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+  }
 
   &:hover {
-    .show-card {
-      visibility: visible;
-      opacity: 1;
-      width: 300px;
-      height: 220px;
-      transform: scaleX(1.5) scaleY(1.5);
-    }
+    transform: scale(1.05);
+    //   .show-card {
+    //     visibility: visible;
+    //     opacity: 1;
+    //     width: 300px;
+    //     height: 220px;
+    //     transform: scaleX(1.15) scaleY(1.15);
+    //   }
   }
 }
 .tool-tip {

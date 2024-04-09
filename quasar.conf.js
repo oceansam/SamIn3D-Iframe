@@ -130,9 +130,9 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `vue-quasar-v2`,
-        short_name: `vue-quasar-v2`,
-        description: `vue-quasar-boilerplate for general use`,
+        name: `SamIn3D Iframe`,
+        short_name: `SamIn3D`,
+        description: `Iframe for the 3D site's monitor`,
         display: "standalone",
         orientation: "portrait",
         background_color: "#ffffff",

@@ -3,7 +3,7 @@
     class="row justify-between items-center q-pa-md q-pl-xl bg-primary text-white full-width"
   >
     <div class="row items-center q-gutter-x-xl">
-      <q-img src="netflix_logo.png" width="120px" height="32px" />
+      <div class="netflix-title">Samee Chowdhury</div>
       <div>Portfolio</div>
     </div>
     <div class="row items-center q-gutter-x-md">
@@ -46,19 +46,19 @@ export default {
   setup() {
     const userList = [
       {
-        name: "Github",
+        name: "Recruiter",
         imgUrl: "profiles/github_profile.jpg",
-        alias: "/oceansam",
+        alias: "/@techcompany",
       },
       {
-        name: "Linkedin",
+        name: "Recruiter",
         imgUrl: "profiles/github_profile.jpg",
-        alias: "/samee-chowdhury",
+        alias: "/@techcompany2",
       },
       {
-        name: "Resume",
+        name: "Developer",
         imgUrl: "profiles/github_profile.jpg",
-        alias: "/google-drive",
+        alias: "/@graphicscompany",
       },
     ];
     return {

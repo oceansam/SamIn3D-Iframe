@@ -26,14 +26,14 @@ export default {
 
   border-radius: 5px;
 
-  &:hover {
-    .show-card {
-      visibility: visible;
-      opacity: 1;
-      width: 300px;
-      height: 220px;
-      transform: scaleX(1.5) scaleY(1.5);
-    }
-  }
+  // &:hover {
+  //   .show-card {
+  //     visibility: visible;
+  //     opacity: 1;
+  //     width: 300px;
+  //     height: 220px;
+  //     transform: scaleX(1.15) scaleY(1.15);
+  //   }
+  // }
 }
 </style>
