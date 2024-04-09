@@ -31,7 +31,7 @@
       </q-card-section>
       <q-separator inset color="white" />
       <q-card-section class="text-white">
-        <div class="text-xs">
+        <div class="text-sm">
           {{ data.description }}
         </div>
       </q-card-section>

@@ -170,7 +170,7 @@ export default {
 
 <style lang="scss" scoped>
 .show-box {
-  min-width: 17.5rem;
+  min-width: 17rem;
   min-height: 8.75rem;
   background-position: center;
   background-size: cover;
@@ -203,6 +203,7 @@ export default {
     transition: 0.2s ease-in;
     position: absolute;
     width: 100%;
+    maxwidth: 760px;
     height: auto;
     z-index: 1;
   }
