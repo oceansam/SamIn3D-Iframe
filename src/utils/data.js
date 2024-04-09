@@ -40,7 +40,7 @@ export const projects = [
   },
   {
     name: "2023 Portfolio",
-    description: "",
+    description: "Primary freelance portfolio, currently being developed out. ",
     featureImage: "projects/portfolio.png",
     demoLink: "https://samcode.vercel.app/",
     techStack: ["TS", "Next.js", "Framer-Motion"],
