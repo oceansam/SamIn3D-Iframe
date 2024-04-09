@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primary q-px-xl q-pa-md">
     <div class="row header">
-      <div class="text-white text-md text-bold">Trending Projects</div>
+      <div class="text-white text-md text-bold">Projects I worked on</div>
     </div>
     <div class="row q-gutter-md q-mt-md">
       <show-box v-for="(project, i) in projects" :key="i" :data="project" />
